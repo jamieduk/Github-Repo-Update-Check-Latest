@@ -57,6 +57,18 @@ cd Github-Repo-Update-Check-Latest
 chmod +x update-check.sh
 ./update-check.sh
 ```
+## How it works
+The check script
+update-check.sh
+
+Usage Example:
+'''bash
+sudo chmod +x *.sh
+
+./update-check.sh
+'''
+
+Uses a local file package.json and compares to the github hosted version to check if version is current or out of date!
 
 ## Configuration
 
