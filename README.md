@@ -58,18 +58,16 @@ chmod +x update-check.sh
 ./update-check.sh
 ```
 ## How it works
+Uses a local file package.json and compares to the github hosted version to check if version is current or out of date!
+
 The check script
 update-check.sh
 
 Usage Example:
 
-'''bash
 sudo chmod +x *.sh
 
 ./update-check.sh
-'''
-
-Uses a local file package.json and compares to the github hosted version to check if version is current or out of date!
 
 ## Configuration
 
