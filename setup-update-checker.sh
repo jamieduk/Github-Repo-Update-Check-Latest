@@ -5,15 +5,5 @@
 #
 #
 #
-if [ ! -f "venv/bin/activate" ]; then
-    echo "Creating virtual environment..."
-    #/usr/bin/rm -rf venv
-    python -m venv venv
-fi
+sudo apt update && sudo apt install -y curl sed
 
-source venv/bin/activate
-
-echo "Virtual Environment Setup and ready!"
-
-
-# pip install -r requirements.txt
