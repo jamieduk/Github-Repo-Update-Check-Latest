@@ -54,7 +54,8 @@ Clone the repository:
 # (c) J~Net 2026
 git clone https://github.com/jamieduk/Github-Repo-Update-Check-Latest.git
 cd Github-Repo-Update-Check-Latest
-chmod +x update-check.sh
+chmod +x *.sh
+./setup-update-checker.sh
 ./update-check.sh
 ```
 ## How it works
