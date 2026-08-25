@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 
 set -uo pipefail
-repo_to_check="https://github.com/jamieduk/Github-Repo-Update-Check-Latest"
+repo_to_check="https://github.com/jamieduk/Github-Repo-Update-Check-Latest" # Change Repo
+
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 CURRENT_VERSION="${CURRENT_VERSION:-1.0.0}"
 if [[ -f "$SCRIPT_DIR/package.json" ]]; then
