@@ -6,6 +6,12 @@ to latest github repo version!
 
 https://github.com/jamieduk/Github-Repo-Update-Check-Latest
 
+git clone https://github.com/jamieduk/Github-Repo-Update-Check-Latest.git
+cd Github-Repo-Update-Check-Latest
+sudo chmod +x *.sh
+./setup-update-checker.sh
+
+
 The check script
 update-check.sh
 
