@@ -1,0 +1,23 @@
+Github Version Checker By (c) J~Net 2026
+
+Bash script to check package.json file for version info and offer a link to visit and update
+to latest github repo version!
+
+
+https://github.com/jamieduk/Github-Repo-Update-Check-Latest
+
+The check script
+update-check.sh
+
+Usage Example:
+
+sudo chmod +x *.sh
+
+./update-check.sh
+
+
+Uses a local file package.json and compares to the github hosted version to check if version is current or out of date!
+
+jnetai.com
+
+
